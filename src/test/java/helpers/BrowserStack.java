@@ -15,7 +15,7 @@ public class BrowserStack {
         return given()
                 .log().all()
                 .filter(withCustomTemplates())
-                .auth().basic(config.getName(), config.getPassword())
+                .auth().basic(config.getUser(), config.getPassword())
                 .when()
                 .get(url)
                 .then()
