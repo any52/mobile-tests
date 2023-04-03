@@ -17,7 +17,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.openqa.selenium.By.xpath;
 
 
-public class SearchTests extends TestBase{
+public class SearchTests extends TestBase {
 
     @DisplayName("Successful search on Android")
     @Tag("android")
@@ -48,6 +48,7 @@ public class SearchTests extends TestBase{
             $(xpath(("//*[@text='About']"))).shouldBe(visible);
         });
     }
+
     @DisplayName("Checking com.browserstack.Sample")
     @Test
     @Tag("ios")
@@ -69,7 +70,6 @@ public class SearchTests extends TestBase{
         });
 
         step("Check Output text", () -> {
-            //assertEquals(text, $(id("Text Output")).getText());
             $(accessibilityId("Text Output")).shouldHave(text(text));
         });
     }
