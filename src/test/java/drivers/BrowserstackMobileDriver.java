@@ -18,7 +18,7 @@ public class BrowserstackMobileDriver implements WebDriverProvider {
                 ConfigFactory.create(MobileDriverConfig.class, System.getProperties());
         String user = config.getUser();
         String password = config.getPassword();
-        String apps = config.getApp();
+        String app = config.getApp();
         String remoteUrl = config.getRemoteURL();
         String device = config.getDevice();
         String version = config.getOsVersion();
@@ -31,8 +31,7 @@ public class BrowserstackMobileDriver implements WebDriverProvider {
 
         mutableCapabilities.setCapability("browserstack.user", user);
         mutableCapabilities.setCapability("browserstack.key", password);
-        //mutableCapabilities.setCapability("app", app);
-        mutableCapabilities.setCapability("apps", apps);
+        mutableCapabilities.setCapability("app", app);
         mutableCapabilities.setCapability("device", device);
         mutableCapabilities.setCapability("os_version", version);
         mutableCapabilities.setCapability("project", nameProject);
