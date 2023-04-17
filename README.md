@@ -23,9 +23,9 @@
 <a href="https://aerokube.com/selenoid/"><img src="images/Selenoid.svg" width="50" height="50"  alt="Selenoid"/></a>
 <a href="https://github.com/allure-framework/allure2"><img src="images/Allure_Report.svg" width="50" height="50"  alt="Allure"/></a>
 <a href="https://www.jenkins.io/"><img src="images/Jenkins.svg" width="50" height="50"  alt="Jenkins"/></a>
-<a href="https://developer.android.com/studio/"><img alt="Android Studio" height="50" src="images/logo/AndroidStudio.svg" width="50"/></a>
-<a href="https://appium.io/"><img alt="Appium" height="50" src="images/logo/Appium.svg" width="50"/></a>
-<a href="https://https//www.browserstack.com/"><img alt="Browserstack" height="50" src="images/logo/Browserstack.svg" width="50"/></a>
+<a href="https://developer.android.com/studio/"><img alt="Android Studio" height="50" src="images/AndroidStudio.svg" width="50"/></a>
+<a href="https://appium.io/"><img alt="Appium" height="50" src="images/Appium.svg" width="50"/></a>
+<a href="https://https//www.browserstack.com/"><img alt="Browserstack" height="50" src="images/Browserstack.svg" width="50"/></a>
 </p>
 
 ## :scroll: Реализованные тесты
