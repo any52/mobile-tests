@@ -76,7 +76,7 @@ clean ${PLATFORM} -Denv=${PLATFORM}
 </p>
 
 
-## <img src="images/Allure_EE.svg" width="25" height="25"  alt="Allure"/></a>Интеграция с <a target="_blank" href="https://allure.autotests.cloud/launch/19377">Allure TestOps</a>
+## <img src="images/Allure_EE.svg" width="25" height="25"  alt="Allure"/></a>Интеграция с <a target="_blank" href="https://allure.autotests.cloud/launch/22486">Allure TestOps</a>
 
 ### Дашборд
 
