@@ -21,7 +21,7 @@ import static org.openqa.selenium.By.xpath;
 
 public class SearchTests extends TestBase {
 
-    @DisplayName("Successful search on Android")
+    @DisplayName("Checking 'java' in search of Wikipedia")
     @Tag("android")
     @Owner("almoiseeva")
     @Test

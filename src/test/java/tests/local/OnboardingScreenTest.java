@@ -14,7 +14,7 @@ import static io.qameta.allure.Allure.step;
 public class OnboardingScreenTest extends TestBase {
 
     @Tag("emulator")
-    @DisplayName("Onboarding screen test")
+    @DisplayName("Checking onboarding screen")
     @Test
     void gettingStartedTest() {
 
