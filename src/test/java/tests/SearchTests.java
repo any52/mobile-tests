@@ -1,5 +1,6 @@
 package tests;
 
+import io.qameta.allure.Owner;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
@@ -21,6 +22,7 @@ public class SearchTests extends TestBase {
 
     @DisplayName("Successful search on Android")
     @Tag("android")
+    @Owner("almoiseeva")
     @Test
     void successfulSearchAndroidTest() {
         step("Type search", () -> {
@@ -35,6 +37,7 @@ public class SearchTests extends TestBase {
     @DisplayName("Checking 'About' in settings")
     @Test
     @Tag("android")
+    @Owner("almoiseeva")
     void searchAboutTest() {
         step("Open menu", () ->
                 $(id("org.wikipedia.alpha:id/menu_overflow_button")).click()
@@ -52,6 +55,7 @@ public class SearchTests extends TestBase {
     @DisplayName("Checking com.browserstack.Sample")
     @Test
     @Tag("ios")
+    @Owner("almoiseeva")
     void iosTextTest() {
 
         String text = "iPhoneTest";
